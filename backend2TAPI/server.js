@@ -1,11 +1,11 @@
 const express = require('express')
-const app = express()
-const port = 3000
+const app = express();
+const port = 5000;
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+    res.send('Malav Patel is OP !')
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+    console.log(`App Started on port ${port}`)
 })
